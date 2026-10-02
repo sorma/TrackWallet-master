@@ -1,0 +1,42 @@
+# Android Studio / IntelliJ
+.idea/
+*.iml
+
+# Gradle and build output
+.gradle/
+**/build/
+out/
+.cxx/
+.externalNativeBuild/
+captures/
+
+# Machine-local configuration and credentials
+**/local.properties
+**/google-services.json
+*.keystore
+*.jks
+*.p12
+crashlytics.properties
+fabric.properties
+.fabric/
+
+# Firebase Functions
+functions/node_modules/
+functions/.runtimeconfig.json
+firebase-debug.log*
+firestore-debug.log*
+ui-debug.log*
+
+# Native build output
+obj/
+*.so
+
+# Logs, temporary files and editor metadata
+*.log
+*.bak
+*.tmp
+*.swp
+*.swo
+*.swn
+.DS_Store
+Thumbs.db

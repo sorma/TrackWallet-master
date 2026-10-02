@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.fragment.sommario.SommarioFragment"
+    android:orientation="vertical">
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/topAppBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:padding="@dimen/padding_small"
+        >
+
+        <!-- Icona Categoria (sinistra) -->
+        <ImageView
+            android:id="@+id/contoIcona"
+            android:layout_width="@dimen/layout_40"
+            android:layout_height="@dimen/layout_40"
+            android:contentDescription="@string/calendario"
+            android:src="@drawable/calendario"
+            android:layout_gravity="start|center_vertical"
+            android:layout_marginEnd="@dimen/layout_small"/>
+
+        <TextView
+            android:id="@+id/nome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sommario"
+            android:layout_gravity="start|center_vertical"
+            android:layout_marginEnd="@dimen/layout_small"
+            android:textStyle="bold"
+            android:textSize="@dimen/text_header"/>
+
+
+    </com.google.android.material.appbar.MaterialToolbar>
+    <com.google.android.material.divider.MaterialDivider
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/padding_small" />
+
+</LinearLayout>

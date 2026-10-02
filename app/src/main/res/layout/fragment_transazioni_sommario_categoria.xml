@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- MaterialToolbar per TopAppBar con Freccia, Icona Categoria e Nome Categoria -->
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/topAppBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:padding="@dimen/padding_small"
+        app:title=""
+        app:navigationIcon="@drawable/indietro">
+
+        <!-- Icona Categoria (sinistra) -->
+        <ImageView
+            android:id="@+id/categoriaIcona"
+            android:layout_width="@dimen/layout_40"
+            android:layout_height="@dimen/layout_40"
+            android:contentDescription="@string/icona_categoria"
+            android:layout_gravity="start|center_vertical"
+            android:layout_marginEnd="@dimen/layout_small"
+            app:tint="@color/md_theme_onSurfaceVariant" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+        <!-- Nome Categoria -->
+        <TextView
+            android:id="@+id/titolo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nome_categoria"
+            android:layout_gravity="start|center_vertical"
+            android:layout_marginEnd="@dimen/layout_small"
+            android:textStyle="bold"
+            android:textSize="@dimen/text_header"/>
+            <TextView
+                android:id="@+id/data"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/nome_categoria"
+                android:layout_gravity="start|center_vertical"
+                android:layout_marginEnd="@dimen/layout_small"
+                android:textSize="@dimen/text_small"/>
+        </LinearLayout>
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/layout_medium"
+            android:layout_gravity="end|center_vertical"
+            android:background="@drawable/spinner_background"/>
+    </com.google.android.material.appbar.MaterialToolbar>
+
+    <!-- Divider -->
+    <com.google.android.material.divider.MaterialDivider
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!-- Filtri per Importo e Data -->
+    <LinearLayout
+        android:id="@+id/linearFiltri"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="@dimen/padding_small"
+        >
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/padding_small"
+            android:hint="@string/cerca_titolo"
+            app:startIconDrawable="@drawable/search"
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/searchEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+    </LinearLayout>
+
+    <!-- RecyclerView per le Transazioni -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerTransazioni"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/layout_0"
+        android:layout_weight="1"
+        android:padding="@dimen/padding_small" />
+</LinearLayout>

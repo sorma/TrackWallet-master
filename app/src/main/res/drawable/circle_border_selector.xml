@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Quando selezionato, cambia il colore del bordo -->
+    <item android:state_selected="true" android:drawable="@drawable/selected_background" />
+
+    <!-- Quando non selezionato, usa il bordo di default -->
+    <item android:drawable="@drawable/selectable_item" />
+</selector>

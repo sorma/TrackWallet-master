@@ -1,0 +1,134 @@
+<resources>
+    <string name="default_web_client_id" translatable="false">1045518655245-cpku7m0hv94mhi4u2doeui8g2j5dtila.apps.googleusercontent.com</string>
+    <string name="app_name" translatable="false">TrackWallet</string>
+    <string name="login" translatable="false">Login</string>
+    <string name="username" translatable="false">Username</string>
+    <string name="password" translatable="false">Password</string>
+    <string name="mail" translatable="false">E-mail</string>
+    <string name="confermaPassword">Conferma Password</string>
+    <string name="forgotPassword">Hai dimenticato la password?</string>
+    <string name="loginGoogle" translatable="false">Google</string>
+    <string name="or" translatable="false">or</string>
+    <string name="sei_loggato">Hai gia un account?</string>
+    <string name="sei_registrato">Non hai ancora un account?</string>
+    <string name="registrati">Registrati</string>
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="aggiungi">aggiungi</string>
+    <string name="home" translatable="false">Home</string>
+    <string name="categorie">Categorie</string>
+    <string name="investimenti">Investimenti</string>
+    <string name="impostazioni">impostazioni</string>
+    <string name="vuoto">vuoto</string>
+    <string name="email" translatable="false">Email</string>
+    <string name="scegli_un_icona">Scegli un\'icona</string>
+    <string name="scegli_un_colore">Scegli un colore</string>
+    <string name="nome_categoria">Nome categoria</string>
+    <string name="annulla">Annulla</string>
+    <string name="cerca_titolo">Cerca titolo/data/importo...</string>
+    <string name="nome_conto">Nome conto</string>
+    <string name="icona_conto">Icona Conto</string>
+    <string name="sommario">Sommario</string>
+    <string name="mese_anno">mese anno</string>
+    <string name="calendario">calendario</string>
+    <string name="profilo">profilo</string>
+    <string name="logout" translatable="false">Logout</string>
+    <string name="abbonamenti">Abbonamenti</string>
+    <string name="modalita_scura">Modalità Scura</string>
+    <string name="seleziona_lingua">Seleziona Lingua</string>
+    <string name="seleziona_valuta">Seleziona Valuta</string>
+    <string name="reset_password" translatable="false">reset Password</string>
+    <string name="gestisci_notifiche">Gestisci Notifiche</string>
+    <string name="titolo">Titolo</string>
+    <string name="spesa">Spesa</string>
+    <string name="entrata">Entrata</string>
+    <string name="inserisci_l_importo">Inserisci l\'importo</string>
+    <string name="seleziona_la_data_di_inzio">Seleziona la data di inzio</string>
+    <string name="seleziona_la_data_di_fine">Seleziona la data di fine</string>
+    <string name="seleziona_la_data_e_ora">Seleziona la data e ora</string>
+    <string name="saldo_iniziale">Saldo iniziale</string>
+    <string name="euro" translatable="false">€</string>
+    <string name="mostra_altri_colori">Mostra altri colori</string>
+    <string name="icona_1">Icona 1</string>
+    <string name="icona_2">Icona 2</string>
+    <string name="mostra_altre_icone">Mostra altre icone</string>
+    <string name="aggiungi1">Aggiungi</string>
+    <string name="giorno">Giorno</string>
+    <string name="settimana">Settimana</string>
+    <string name="periodo">Periodo</string>
+    <string name="freccia_sinistra">Freccia sinistra</string>
+    <string name="icona_categoria">Icona Categoria</string>
+    <string name="data">Data</string>
+    <string name="importo">Importo</string>
+    <string name="conto_transazione">Conto Transazione</string>
+    <string name="categoria_transazione">Categoria Transazione</string>
+    <string name="icona">Icona</string>
+    <string name="nome_conto1">Nome Conto</string>
+    <string name="_0_00" translatable="false">€0,00</string>
+    <string name="opzione">Opzione</string>
+    <string name="titolo_transazione">Titolo Transazione</string>
+    <string name="inserisci_un_messaggio">Inserisci un messaggio</string>
+    <string name="invia_messaggio">Invia messaggio</string>
+    <string name="conferma_cancellazione">Conferma Cancellazione</string>
+    <string name="text_sei_sicuro_eliminazione_conto">Sei sicuro di voler eliminare questo conto?, eliminerai anche tutte le transazioni collegate ad esso</string>
+    <string name="text_sei_sicuro_eliminazione_abbonamento">Sei sicuro di voler eliminare questo abbonamento?</string>
+    <string name="elimina">Elimina</string>
+    <string name="text_elimina_categoria">Sei sicuro di voler eliminare questa categoria, eliminerai anche tutte le transazioni collegate ad essa, i soldi verranno rimessi sui conti dal quale sono state eseguite?</string>
+    <string name="inserire_tutti_i_campi">Inserire tutti i campi</string>
+    <string name="aggiungi_categoria">Aggiungi categoria</string>
+    <string name="aggiungi_conto">Aggiungi conto</string>
+    <string name="text_sicuro_eliminazione_transazione">Sei sicuro di voler eliminare questa transazione, i soldi verranno rimborsati sul conto da dove e\' stata emessa?</string>
+    <string name="mail_inviata_per_reset">Mail inviata per reset</string>
+    <string name="seleziona_una_data">Seleziona una data</string>
+    <string name="spesa_non_negativa_entrata_non_positiva">Spesa non negativa | Entrata non positiva</string>
+    <string name="compila_tutti_i_campi">Compila tutti i campi!</string>
+    <string name="abbonamenti_ricevuti">"Abbonamenti ricevuti: "</string>
+    <string name="abbonamento_aggiunto">Abbonamento aggiunto!</string>
+    <string name="errore_nei_dati">Errore nei dati</string>
+    <string name="spese">Spese</string>
+    <string name="entrate">Entrate</string>
+    <string name="conti">Conti</string>
+    <string name="per_favore_inserisci_un_messaggio">Per favore inserisci un messaggio.</string>
+    <string name="messaggio_da_app">Messaggio da app</string>
+    <string name="invia_email">Invia email...</string>
+    <string name="non_ci_sono_applicazioni_email_installate">Non ci sono applicazioni email installate.</string>
+    <string name="logout_effettuato">Logout effettuato</string>
+    <string name="lingua_selezionata">"Lingua selezionata: "</string>
+    <string name="errore_nel_recupero_dei_dati">Errore nel recupero dei dati.</string>
+    <string name="contattaci">Contattaci</string>
+    <string name="totale">Totale</string>
+    <string name="decr">Decr.</string>
+    <string name="cresc">Cresc.</string>
+    <string name="gennaio">Gennaio</string>
+    <string name="febbraio">Febbraio</string>
+    <string name="marzo">Marzo</string>
+    <string name="aprile">Aprile</string>
+    <string name="maggio">Maggio</string>
+    <string name="giugno">Giugno</string>
+    <string name="luglio">Luglio</string>
+    <string name="agosto">Agosto</string>
+    <string name="settembre">Settembre</string>
+    <string name="ottobre">Ottobre</string>
+    <string name="novembre">Novembre</string>
+    <string name="dicembre">Dicembre</string>
+    <string name="controlla_la_connessione_ad_internet">Controlla la connessione ad internet!</string>
+    <string name="inserisci_la_tua_email">Inserisci la tua email</string>
+    <string name="recupero_password">Recupero password</string>
+    <string name="inserisci_la_tua_email_per_resettare_la_password">Inserisci la tua email per resettare la password</string>
+    <string name="invia">Invia</string>
+    <string name="inserisci_una_email_valida">Inserisci una email valida</string>
+    <string name="autenticazione_fallita">Autenticazione fallita.</string>
+    <string name="accesso_riuscito">"Accesso riuscito: "</string>
+    <string name="errore_durante_l_accesso_con_google">Errore durante l\'accesso con Google</string>
+    <string name="benvenuto">"Benvenuto, "</string>
+    <string name="le_password_non_coincidono">le password non coincidono</string>
+    <string name="inserire_una_password_di_lunghezza_corretta">inserire una password di lunghezza corretta</string>
+    <string name="inserire_una_mail_valida">inserire una mail valida</string>
+    <string name="inserire_uno_username_di_lunghezza_corretta">inserire uno username di lunghezza corretta</string>
+    <string name="registrazione_fallita">"Registrazione fallita: "</string>
+    <string name="utente_creato_correttamente">Utente creato correttamente</string>
+    <string name="errore_salvataggio_dati_utente">"Errore salvataggio dati utente: "</string>
+    <string name="scegli_periodo">Scegli periodo</string>
+    <string name="registratifragment" translatable="false">RegistratiFragment</string>
+    <string name="loginfragment" translatable="false">LoginFragment</string>
+
+</resources>

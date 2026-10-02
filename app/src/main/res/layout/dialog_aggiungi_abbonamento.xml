@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="@dimen/padding_medium">
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="?attr/textInputFilledStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_medium">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/editText_titolo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/titolo"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+    <!-- RadioGroup per Spesa/Entrata -->
+    <RadioGroup
+        android:id="@+id/radioGroup_tipo_transazione"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_medium"
+        android:orientation="horizontal"
+        android:padding="@dimen/padding_small">
+
+        <RadioButton
+            android:id="@+id/radio_spesa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/margin_medium"
+            android:text="@string/spesa"
+            />
+
+        <RadioButton
+            android:id="@+id/radio_entrata"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/entrata" />
+    </RadioGroup>
+
+    <!-- Spinner per selezionare il conto -->
+    <Spinner
+        android:id="@+id/spinner_conto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_medium"
+        />
+
+    <!-- Spinner per selezionare la categoria -->
+    <Spinner
+        android:id="@+id/spinner_categoria"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_medium"
+        />
+
+    <!-- Campo per l'importo -->
+    <com.google.android.material.textfield.TextInputLayout
+        style="?attr/textInputFilledStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_medium">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/editText_importo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/inserisci_l_importo"
+            android:inputType="numberDecimal|numberSigned" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!-- Selettore Data e Ora -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_medium"
+        style="@style/Widget.Material3.TextInputLayout.OutlinedBox"
+        android:id="@+id/layoutText_data_inizio"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/editText_data_inizio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/seleziona_la_data_di_inzio"
+            android:clickable="true"
+            android:focusable="false"
+            android:inputType="date"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_medium"
+        style="@style/Widget.Material3.TextInputLayout.OutlinedBox"
+        android:id="@+id/layoutText_data_fine"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/editText_data_fine"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/seleziona_la_data_di_fine"
+            android:clickable="true"
+            android:focusable="false"
+            android:inputType="date"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_large"
+        android:gravity="end"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonAnnulla"
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/annulla" />
+
+        <Button
+            android:id="@+id/buttonAggiungi"
+            style="@style/Widget.MaterialComponents.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/aggiungi" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,21 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/colore"
+    android:layout_width="50dp"
+    android:layout_height="50dp"
+    android:layout_margin="8dp"
+    android:clickable="true"
+    android:contentDescription="@string/icona"
+    android:focusable="true"
+    android:padding="15dp">
+
+    <!-- Spunta sopra quando cliccato -->
+    <ImageView
+        android:id="@+id/spunta"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/check"
+        android:visibility="gone"
+        />
+</FrameLayout>

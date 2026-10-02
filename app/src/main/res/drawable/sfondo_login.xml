@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android = "http://schemas.android.com/apk/res/android"
+    android:innerRadius="50dp"
+    android:shape="rectangle"
+    android:useLevel="true"
+    android:tint="@color/md_theme_tertiaryContainer">
+    <corners
+        android:topLeftRadius="0dp"
+        android:bottomLeftRadius="100dp"
+        android:bottomRightRadius="100dp"/>
+</shape>

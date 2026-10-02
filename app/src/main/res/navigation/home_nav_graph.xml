@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/home_nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.jm.trackwallet.ui.home.fragment.home.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_transazioniSommarioCategoria"
+            app:destination="@id/transazioniSommarioCategoria" />
+    </fragment>
+    <fragment
+        android:id="@+id/categorieFragment"
+        android:name="com.jm.trackwallet.ui.home.fragment.categorie.CategorieFragment"
+        android:label="fragment_categorie"
+        tools:layout="@layout/fragment_categorie" >
+        <action
+            android:id="@+id/action_categorieFragment_to_transazioniCategoriaFragment"
+            app:destination="@id/transazioniCategoriaFragment" />
+        <action
+            android:id="@+id/action_categorieFragment_to_transazioniContoFragment"
+            app:destination="@id/transazioniContoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/sommarioFragment"
+        android:name="com.jm.trackwallet.ui.home.fragment.sommario.SommarioFragment"
+        android:label="fragment_sommario"
+        tools:layout="@layout/fragment_sommario" >
+        <action
+            android:id="@+id/action_sommarioFragment_to_transazioniMeseFragment"
+            app:destination="@id/transazioniMeseFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/impostazioniFragment"
+        android:name="com.jm.trackwallet.ui.home.fragment.impostazioni.ImpostazioniFragment"
+        android:label="fragment_impostazioni"
+        tools:layout="@layout/fragment_impostazioni" >
+        <action
+            android:id="@+id/action_impostazioniFragment_to_abbonamentiFragment"
+            app:destination="@id/abbonamentiFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/transazioniCategoriaFragment"
+        android:name="com.jm.trackwallet.ui.home.fragment.categorie.TransazioniCategoriaFragment"
+        android:label="fragment_transazioni_categoria"
+        tools:layout="@layout/fragment_transazioni_categoria" />
+    <fragment
+        android:id="@+id/transazioniContoFragment"
+        android:name="com.jm.trackwallet.ui.home.fragment.categorie.TransazioniContoFragment"
+        android:label="TransazioniContoFragment" />
+    <fragment
+        android:id="@+id/entrateCategorieFragment"
+        android:name="com.jm.trackwallet.ui.home.fragment.categorie.EntrateCategorieFragment"
+        android:label="EntrateCategorieFragment">
+        <action
+            android:id="@+id/action_entrateCategorieFragment_to_transazioniCategoriaFragment"
+            app:destination="@id/transazioniCategoriaFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/abbonamentiFragment2"
+        android:name="com.jm.trackwallet.ui.home.fragment.impostazioni.abbonamentiFragment"
+        android:label="fragment_abbonamenti"
+        tools:layout="@layout/fragment_abbonamenti" />
+    <fragment
+        android:id="@+id/transazioniMeseFragment"
+        android:name="com.jm.trackwallet.ui.home.fragment.sommario.TransazioniMeseFragment"
+        android:label="fragment_transazione_mese"
+        tools:layout="@layout/fragment_transazioni_mese" />
+    <fragment
+        android:id="@+id/transazioniSommarioCategoria"
+        android:name="com.jm.trackwallet.ui.home.fragment.home.TransazioniSommarioCategoriaFragment"
+        android:label="fragment_transazioni_sommario_categoria"
+        tools:layout="@layout/fragment_transazioni_sommario_categoria" />
+</navigation>
